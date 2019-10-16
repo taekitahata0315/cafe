@@ -106,3 +106,49 @@ nav a:active{
 .news-item{
   margin: 0;
 }
+
+.shop-photo{
+  float: left;
+  padding: 0 1em 1em 0;
+}
+
+.clear{
+  clear: both;
+}
+
+.info{
+  border-collapse: collapse;
+}
+
+.info th, .info td{
+  padding: 8px;
+  border: 1px solid #bec2c7;
+  text-align: left;
+}
+
+.info th{
+  background-color: aqua;
+  width: 90px;
+  color: #d25833;
+  vertical-align: top;
+}
+
+.menu-item{
+  display: flex;
+  border-bottom: 1px dashed #bec2c7;
+  padding: 20px 8px;
+
+}
+
+.menu-photo{
+  margin-right: 16px;
+  flex: 1 1 auto;
+}
+.menu-text{
+  flex: 0 0 336px;
+}
+
+.map{
+  text-align: center;
+}
+
